@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+body,
+html {
+
+    background-image: url(assets/background.jpg);
+    background-size: 100%;
+    --font-principal: "Protest Strike",
+        sans-serif;
+
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho {
+    padding: 10px;
+
+    background-color: white;
+
+}
+
+.img_ul {
+
+    width: 250px;
+}
+
+.ul_list {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    align-items: center;
+    font-family: var(--font-principal);
+    text-transform: uppercase;
+}
+
+.slides {
+
+
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.botão_imagem {
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+
+}
+
+.imagem_foto {
+    border: 1px solid white;
+}
+
+.texto_jogo {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 24px;
+}
+
+.div_re1 {
+    padding: 30px;
+    display: flex;
+
+}
+
+.imagem_menu {
+    width: 25%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #eee;
+    margin: 0;
+     
+}
+
+h1,
+h2 {
+    color: #cf6f00;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.back_button {
+    font-size: 24px;
+}
